@@ -23,7 +23,11 @@
 
 아래는 실제 프로젝트 구동 화면입니다.
 
-![데모 실행 화면](./asset/demo.mov)
+
+
+https://github.com/user-attachments/assets/cd40eb0b-0bd0-436d-8e01-b1df43f171f2
+
+
 
 ---
 
