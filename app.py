@@ -27,3 +27,16 @@ def generate_caption(image):
         return caption
     except Exception as e:
         return f"에러 발생: {str(e)}"
+    
+# 3. Gradio 인터페이스 구성 (웹 UI)
+iface = gr.Interface(
+    fn=generate_caption,                    # 실행할 함수
+    inputs=gr.Image(type="pil"),            # 입력: 이미지 업로드
+    outputs="text",                         # 출력: 텍스트
+    title="이미지 캡셔닝 AI (Image to Text)", # 제목
+    description="이미지를 업로드하면 AI가 상황을 영어로 설명해줍니다." # 설명
+)
+
+# 4. 앱 실행
+if __name__ == "__main__":
+    iface.launch()
