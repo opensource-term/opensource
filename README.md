@@ -23,8 +23,7 @@
 
 아래는 실제 프로젝트 구동 화면입니다.
 
-![데모 실행 화면](./assets/demo_screenshot.png)
-_(위 이미지는 예시입니다. 실제 실행 후 스크린샷을 찍어 assets 폴더에 넣거나 경로를 수정해주세요)_
+![데모 실행 화면](./asset/demo.mov)
 
 ---
 
@@ -46,8 +45,8 @@ _(위 이미지는 예시입니다. 실제 실행 후 스크린샷을 찍어 ass
 먼저 프로젝트를 로컬 환경으로 가져옵니다.
 
 ```bash
-git clone [https://github.com/](https://github.com/)[본인깃허브아이디]/[저장소이름].git
-cd [저장소이름]
+git clone https://github.com/opensource-term/opensource.git
+cd opensource
 ```
 
 ### 2) 필수 패키지 설치 (Install Dependencies)
